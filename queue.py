@@ -5,10 +5,7 @@ class Node:
 
 
 class Queue:
-    """
-    first -> foo -> bar -> last -> None
-    """
-
+    # first -> foo -> bar -> last -> None
     def __init__(self, value):
         new_node = Node(value)
         self.first = new_node

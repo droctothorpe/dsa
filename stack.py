@@ -5,9 +5,7 @@ class Node:
 
 
 class Stack:
-    """
-    top -> foo -> bar -> None
-    """
+    # top -> foo -> bar -> None
     def __init__(self, value):
         new_node = Node(value)
         self.top = new_node

@@ -1,5 +1,4 @@
 class HashTable:
-    # # Alternate implementation using range instead of 
     def __init__(self, size=7):
         self.data_map = [None] * size
 
@@ -34,15 +33,6 @@ class HashTable:
                 for j in i:
                     keys.append(j[0])
         return keys
-        
-    # # Alternate implementation using range instead of 
-    # def keys(self):
-    #     keys = []
-    #     for i in range(len(self.data_map)):
-    #         if self.data_map[i] is not None:
-    #             for j in range(len(self.data_map[i])):
-    #                 keys.append(self.data_map[i][j][0])
-    #     return keys
 
 
 ht = HashTable()
